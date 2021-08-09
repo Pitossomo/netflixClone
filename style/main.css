@@ -1,0 +1,123 @@
+:root{
+  --vermelho:#E50914;
+  --preto:#141414;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  background: var(--preto);
+  font-family: Arial, Helvetica, sans-serif;
+  color:white;
+}
+
+header .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 16px;
+}
+
+header .logo {
+  color: var(--vermelho);
+  font-family: 'Arial Narrow', Arial, Helvetica, sans-serif;
+  font-size: 40px;
+}
+
+header nav a{
+  text-decoration:none;
+  color:#FFF;
+  margin-right: 10px;
+}
+
+header nav a:hover{
+  color:#AAA;
+}
+
+.container {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+/*filme principal*/
+.filme-principal{
+  font-size:16px;
+  height:400px;
+  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("../img/vanHelsing.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.filme-principal .descricao {
+  margin-bottom: 24px;
+}
+
+.titulo {
+  font-size: 36px;
+}
+
+button {
+  border-radius: 4px;
+  border: none;
+  padding: 12px 24px 12px 12px;
+  cursor: pointer;
+  transition: .3s ease all;
+}
+
+button:hover, button#maisInfo:hover {
+  background-color: #AAA;
+  color: black;
+}
+
+button#maisInfo {
+  background-color: rgba(0,0,0,.50);
+  color: white;
+}
+
+button i {
+  margin: 0 4px;
+}
+
+.owl-item:nth-of-type(5n+1) {
+  background-color: tomato;
+}
+
+.owl-item:nth-of-type(5n+2) {
+  background-color: goldenrod;
+}
+
+.owl-item:nth-of-type(5n+3) {
+  background-color: seagreen;
+}
+
+.owl-item:nth-of-type(5n+4) {
+  background-color: dodgerblue;
+}
+
+.owl-item:nth-of-type(5n+5) {
+  background-color: purple;
+}
+
+.owl-item {
+  background:
+    linear-gradient(to bottom right, rgba(255,255,255,0.5),rgba(100,100,100,0.3)),
+    radial-gradient(ellipse at bottom left, rgba(255,255,255,0.5), transparent);
+}
+
+.box-item {
+  min-height: 10em;
+  width: 100%;
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
