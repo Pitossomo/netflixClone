@@ -6,4 +6,4 @@ Preocupações:
     - A referência pode ser algum sistema ou site existente, ou ainda um protótipo no Figma, Adobe XD, Sketch, etc.
 
 Referência do projeto: https://www.netflix.com/browse
-Conteúdo obtido em: https://www.themoviedb.org/?language=pt-BR
+Conteúdo obtido em: https://www.themoviedb.org/?language=pt-BR, http://martinclaret.com.br/, https://www.crunchyroll.com/
