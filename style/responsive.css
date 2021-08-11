@@ -9,6 +9,10 @@
     flex-direction: column;  
   }
 
+  .subtitle {
+    display: none;
+  }
+
   button {
     margin-top: 5px;
     width: 200px;
